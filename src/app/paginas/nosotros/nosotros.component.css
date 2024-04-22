@@ -1,0 +1,53 @@
+/* Estilos generales */
+  
+  /* Estilos para el contenedor del contenido */
+  .nosotros {
+    max-width: 200px; /* Ancho máximo del contenido */
+    margin: 100px auto; /* Centrar el contenido horizontalmente y agregar espacio superior e inferior */
+    padding: 20px; /* Espacio alrededor del contenido */
+    border: 2px solid #ccc; /* Borde alrededor del contenido */
+    border-radius: 10px; /* Borde redondeado */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para que el texto sea legible */
+  }
+  
+  /* Estilos para el encabezado */
+  .nosotros h2 {
+    font-size: 24px;
+    text-align: center; /* Centrar el texto */
+    margin-top: 40px; /* Espacio superior */
+  }
+  
+  /* Estilos para el equipo (si lo hay) */
+  .equipo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los miembros del equipo */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+  }
+  
+  .miembro {
+    flex: 1; /* Ocupar espacio igual dentro del contenedor flex */
+    text-align: center; /* Centrar el contenido */
+  }
+  
+  .miembro img {
+    width: 100px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Borde redondeado para la imagen */
+  }
+  
+  /* Estilos para la historia y los valores (si lo hay)*/
+  .nosotros p {
+    margin-top: 10px; /* Espacio superior */
+    text-align: justify; /* Justificar el texto */
+  }
+  
+  /* Estilos para el contacto */
+  .nosotros h2:last-of-type {
+    margin-bottom: 40px; /* Espacio inferior */
+  }
+  
+  /* Estilos para el formulario de contacto (si lo hay) */
+  .formulario-contacto {
+    /* Agrega estilos según sea necesario */
+  }
+  

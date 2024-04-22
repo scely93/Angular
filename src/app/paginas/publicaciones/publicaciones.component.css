@@ -1,0 +1,20 @@
+.maintenance-message {
+    color: white; /* Color de texto blanco */
+    text-align: center; /* Alineación centrada del contenido */
+    margin-top: 100px; /* Margen superior */
+  }
+  
+  .maintenance-message h2 {
+    background-color: red; /* Fondo rojo para el título */
+    font-size: 36px; /* Tamaño de fuente grande para el título */
+    padding: 10px; /* Relleno para el título */
+  }
+  
+  .maintenance-message h3 {
+    font-size: 26px; /* Tamaño de fuente grande para el subtítulo */
+  }
+  
+  .maintenance-message p {
+    font-size: 20px; /* Tamaño de fuente más pequeño para los párrafos */
+  }
+  

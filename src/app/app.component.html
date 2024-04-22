@@ -1,1 +1,28 @@
-<h1>BUENAS</h1>
+<body style="background-image: url('./assets/img/fondo_inicio.jpg'); background-size: cover; background-position: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!-- Establece el fondo de la página con una imagen de fondo y cambia la fuente -->
+
+  <header style="background-color: #54d2f8; padding: 35px 0;"> <!-- Encabezado de la página con fondo verde oscuro y relleno -->
+    <h1 style="font-size: 36px; color: #1b1919;">ANGULAR</h1> <!-- Título principal con tamaño de fuente aumentado y color blanco -->
+    <nav> <!-- Menú de navegación -->
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li style="display: inline-block; margin-right: 20px;"><a routerLink="/inicio" routerLinkActive="active" style="color: #fff; text-decoration: none; background-color: #4CAF50; padding: 10px; border-radius: 5px;">Inicio</a></li> <!-- Enlace a la página de inicio -->
+        <li style="display: inline-block; margin-right: 20px;"><a routerLink="/nosotros" routerLinkActive="active" style="color: #fff; text-decoration: none; background-color: #4CAF50; padding: 10px; border-radius: 5px;">Nosotros</a></li> <!-- Enlace a la página de nosotros -->
+        <li style="display: inline-block; margin-right: 20px;"><a routerLink="/contactenos" routerLinkActive="active" style="color: #fff; text-decoration: none; background-color: #4CAF50; padding: 10px; border-radius: 5px;">Contáctenos</a></li> <!-- Enlace a la página de contacto -->
+        <li style="display: inline-block;"><a routerLink="/publicaciones" routerLinkActive="active" style="color: #fff; text-decoration: none; background-color: #4CAF50; padding: 10px; border-radius: 5px;">Publicaciones</a></li> <!-- Enlace a la página de publicaciones -->
+      </ul>
+    </nav>
+  </header>
+
+  <main> <!-- Contenido principal de la página -->
+    <!-- Aquí se mostrará el contenido de las diferentes páginas -->
+    <router-outlet></router-outlet> <!-- Componente que se encargará de cargar el contenido de las diferentes páginas según la navegación -->
+  </main>
+
+  <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap bg-light text-dark" id="Derechos" style="padding: 20px; position: fixed; bottom: 0; left: 0; right: 0; margin-bottom: 0;">
+    <p class="fs-5 px-3 pt-3 text-center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 0;">Sayra J. Cely &copy; Derechos Reservados. </p>
+</footer>
+
+
+
+
+
+</body>

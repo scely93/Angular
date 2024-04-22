@@ -1,0 +1,36 @@
+.container {
+  max-width: 200px; /* Ancho máximo del contenedor */
+  margin: 100px auto; /* Centrar el contenido horizontalmente y agregar espacio superior e inferior */
+
+}
+
+.form-group {
+  margin-bottom: 20px; /* Margen inferior para los grupos de formulario */
+}
+
+label {
+  display: block; /* Hacer que las etiquetas sean bloques para separarlas */
+  margin-bottom: 5px; /* Margen inferior para las etiquetas */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Ancho completo para los campos de entrada de texto y de correo electrónico */
+  padding: 10px; /* Relleno para los campos de entrada */
+  border: 1px solid #ccc; /* Borde delgado con color gris */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+  padding: 10px 20px; /* Relleno para el botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor a una mano */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo del botón al pasar el cursor por encima */
+}

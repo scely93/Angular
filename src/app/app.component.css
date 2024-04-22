@@ -1,0 +1,49 @@
+header, footer {
+  background-color: #3cd8ec; /* Azul oscuro para encabezado y pie de página */
+  color: #000000; /* Texto negro */
+  padding: 10px; /* Relleno */
+  text-align: center; /* Alineación al centro */
+}
+
+main {
+  display: flex; /* Mostrar el contenido principal como un contenedor flexible */
+  flex-direction: column; /* Dirección de la disposición del contenido (columna) */
+  align-items: center; /* Alineación del contenido al centro */
+}
+
+.container {
+  max-width: 600px; /* Ancho máximo del contenedor */
+  width: 100%; /* Ancho completo */
+  padding: 0 20px; /* Relleno en los lados del contenedor */
+}
+
+nav ul {
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  margin: 0; /* Eliminar márgenes */
+  padding: 0; /* Eliminar relleno */
+}
+
+nav ul li {
+  display: inline; /* Mostrar elementos de lista en línea */
+  margin-right: 20px; /* Margen derecho entre elementos de lista */
+}
+
+nav ul li a {
+  color: #000000; /* Color del texto de los enlaces */
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  font-weight: bold; /* Negrita */
+  transition: color 0.3s ease; /* Transición suave del color */
+}
+
+nav ul li a:hover {
+  color: #7f8c8d; /* Cambiar color del texto al pasar el cursor sobre los enlaces */
+}
+
+.active {
+  color: #7f8c8d; /* Color del texto para elementos activos */
+}
+
+nav {
+  /*background-color: #edf2f5; /* Azul claro para la barra de navegación */
+  padding: 20px; /* Relleno interno de la barra de navegación */
+}
